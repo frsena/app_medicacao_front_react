@@ -1,0 +1,25 @@
+{
+    "remedios": [
+        { 
+            "codigo" : "1",
+            "nome": "Nesaldina"
+        },
+        { 
+            "codigo" : "2",
+            "nome": "Dorflex"
+        },
+        { 
+            "codigo" : "3",
+            "nome": "Novalgina"
+        },
+        { 
+            "codigo" : "4",
+            "nome": "Discongex"
+        }
+    ]
+}
+
+
+
+
+ 

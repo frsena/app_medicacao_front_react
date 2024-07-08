@@ -1,0 +1,36 @@
+{
+    "medicacoes": [
+    { 
+        "codigo" : "1",
+        "remedio": "Nesoldina",
+        "descricao": "dor de cabeça",
+        "qtdVezesDias": "5",
+        "qtdDias": "10",
+        "dataInicio": "20-05-2024",
+        "obs":""
+    },
+    { 
+        "codigo" : "2",
+        "remedio": "Dorflex",
+        "descricao": "Dores Musculares",
+        "qtdVezesDias": "5",
+        "qtdDias": "10",
+        "dataInicio": "01-06-2024",
+        "obs":""
+    },
+    { 
+        "codigo" : "3",
+        "remedio": "Novalgina",
+        "descricao": "dor e febre",
+        "qtdVezesDias": "5",
+        "qtdDias": "10",
+        "dataInicio": "20-05-2024",
+        "obs":"diminuir a febre"
+    }
+    ]
+}
+
+
+
+
+ 
