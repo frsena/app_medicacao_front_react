@@ -1,6 +1,6 @@
 # Meu Front-end em React
 
-O objetivo do sistema é controlar a medicação de um paciente em casa, o primeiro passo é cadastrar os remedios que precisa tomar, o segundo passo cadastrar a medicação com quantidade de dias e as vezes que precisa ser medicado no dia, o 3 passo montar a grade de com a possibilidade da impressão, para o paciente ter o melhor controle da medicação. 
+O objetivo do sistema é controlar a medicação de um paciente em casa, o primeiro passo: é cadastrar os remedios que precisam tomar para o tramento, o segundo passo: cadastrar a medicação com a quantidade de dias e a quantidade de vezes ao dia, o 3 passo: exibir a grade de horarios das medicações, com a possibilidade de impressão, para o paciente ter um controle melhor das suas medições.
 
 OBS: 3 passo não foi desenvolvido.
 
