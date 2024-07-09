@@ -7,7 +7,7 @@ O objetivo do sistema é controlar a medicação de um paciente em casa, o prime
 OBS: 3 passo não foi desenvolvido.
 
 
-## Link Prototipo
+## Link protótipo
 
 https://www.figma.com/design/u6zPWw8BRgrlC0VrHNbtU0/Projeto-do-curso?node-id=5-2&t=UN09DnettOe0r5st-1
 
