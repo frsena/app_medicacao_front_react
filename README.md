@@ -1,8 +1,16 @@
+
+
 # Meu Front-end em React
 
 O objetivo do sistema é controlar a medicação de um paciente em casa, o primeiro passo: é cadastrar os remedios que precisam tomar para o tramento, o segundo passo: cadastrar a medicação com a quantidade de dias e a quantidade de vezes ao dia, o 3 passo: exibir a grade de horarios das medicações, com a possibilidade de impressão, para o paciente ter um controle melhor das suas medições.
 
 OBS: 3 passo não foi desenvolvido.
+
+
+## Link Prototipo
+
+https://www.figma.com/design/u6zPWw8BRgrlC0VrHNbtU0/Projeto-do-curso?node-id=5-2&t=UN09DnettOe0r5st-1
+
 
 ## Como executar
 
@@ -23,3 +31,5 @@ $ npm start
 ```
 
 Abra o [http://localhost:3000/#/](http://localhost:3000/#/) no navegador.
+
+
