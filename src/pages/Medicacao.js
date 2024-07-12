@@ -117,8 +117,12 @@ export default function Medicacao() {
     const incluir = (evento) =>{
        
         evento.preventDefault();
-        setMedicacoes([...medicacoes,formData])
-        listaMedicacoes.medicacoes.push(formData);
+        // Formatar a data e exibir na tabela o nome do remedio
+        let valor = {...formData, dataInicio: formData.dataInicio.split('-').reverse().join('-'), 
+            remedio :   listaRemedios.remedios.map(rem => {  if(rem.codigo === formData.remedio){ return  rem.nome } })}
+
+        setMedicacoes([...medicacoes,valor])
+        listaMedicacoes.medicacoes.push(valor);
         setIsOpen(false);
         alert("Incluido com sucesso!!")
     }
@@ -126,9 +130,12 @@ export default function Medicacao() {
     const alterar = (evento) =>{
         
         evento.preventDefault();
+        // Formatar a data e exibir na tabela o nome do remedio
         let lista = medicacoes.map(element => {
                     if(element.codigo === formData.codigo){
-                        return {...formData, dataInicio: formData.dataInicio.split('-').reverse().join('-')};
+                        return {...formData, dataInicio: formData.dataInicio.split('-').reverse().join('-'), 
+                                             remedio :   listaRemedios.remedios.map(rem => {  if(rem.codigo === formData.remedio){ return  rem.nome } })
+                        };
                     }else{
                         return element
                     }
@@ -140,7 +147,6 @@ export default function Medicacao() {
         setIsOpen(false);
         alert("Alterado com sucesso!!")
     }
-
 
     return (
         <div className="content">
@@ -169,7 +175,7 @@ export default function Medicacao() {
                                 valor={formData.remedio}
                                 className="inputDialog"
                                 labelOption="Selecione Remedio"
-                                onChange={(e) => setFormData({...formData, remedio: e.target.value})}
+                                onChange={(e) => setFormData({...formData, remedio: e.target.value })}
                             />
                         </div>
                         <div className="divDataInicio">                       
