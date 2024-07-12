@@ -2,7 +2,7 @@
     "medicacoes": [
     { 
         "codigo" : "1",
-        "remedio": "Nesoldina",
+        "remedio": "Nesaldina",
         "descricao": "dor de cabeça",
         "qtdVezesDias": "5",
         "qtdDias": "10",
